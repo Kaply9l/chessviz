@@ -15,4 +15,4 @@ build/board.o: src/board.c
 .PHONY: clean
 
 clean:
-rm -rf build/*.o
+	rm -rf build/*.o
